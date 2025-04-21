@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
-                    <h3>Edit Question</h3>
+                    <h3>Изменит вопрось</h3>
                 </div>
 
                 <div class="card-body">
@@ -39,8 +39,8 @@
                         </div>
 
                         <div class="d-flex justify-content-between">
-                            <a href="{{ route('questions.index') }}" class="btn btn-secondary">Back to Questions</a>
-                            <button type="submit" class="btn btn-primary">Update Question</button>
+                            <a href="{{ route('questions.index') }}" class="btn btn-secondary">Назад</a>
+                            <button type="submit" class="btn btn-primary">Изменит вопрось</button>
                         </div>
                     </form>
                 </div>
