@@ -47,11 +47,11 @@
                                         </td>
                                         <td>
                                             <div class="btn-group">
-                                                <a href="{{ route('questions.edit', $question) }}" class="btn btn-sm btn-info">Edit</a>
+                                                <a href="{{ route('questions.edit', $question) }}" class="btn btn-sm btn-info">Изменить</a>
                                                 <form action="{{ route('questions.destroy', $question) }}" method="POST" class="d-inline">
                                                     @csrf
                                                     @method('DELETE')
-                                                    <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this question?')">Delete</button>
+                                                    <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this question?')">Удалить</button>
                                                 </form>
                                             </div>
                                         </td>
